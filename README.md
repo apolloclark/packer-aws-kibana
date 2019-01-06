@@ -1,4 +1,4 @@
-# packer-aws-elk
+# packer-aws-kibana
 
 Packer based project for provisioning a "Kibana" image using Ansible remote, 
 and Serverspc, for AWS, or Virtualbox, with Elastic monitoring.
