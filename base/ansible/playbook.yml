@@ -10,18 +10,6 @@
     - "vars.yml"
   roles:
     - geerlingguy.firewall
-    - geerlingguy.git
-    - apolloclark.nano_highlighting
     - geerlingguy.java
-    - apolloclark.zookeeper
-    - apolloclark.kafka
-    - apolloclark.elasticsearch
-    - apolloclark.logstash
     - apolloclark.kibana
-    - apolloclark.auditbeat
-    - apolloclark.filebeat
-    - apolloclark.packetbeat
-    - apolloclark.metricbeat
-    - apolloclark.heartbeat
-    - apolloclark.osquery
     - apolloclark.crontab
