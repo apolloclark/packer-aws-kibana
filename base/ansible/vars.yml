@@ -2,22 +2,6 @@
 ---
 hostname: all
 
-# geerlingguy/firewall
-firewall_allowed_tcp_ports:
-  - "22"
-  - "25"
-  - "80"
-  - "2181" # Zookeeper
-  - "5044" # Logstash
-  - "5601" # Kibana
-  - "9092" # Kafka
-  - "9200" # Elasticsearch
-  - "9300" # Elasticsearch
-
-# geerlingguy/java
-java_packages:
-  - openjdk-8-jre
-
 
 
 es_ip: "127.0.0.1"
@@ -27,12 +11,7 @@ kibana_ip: "127.0.0.1"
 
 
 
-# apolloclark/crontab
-crontab:
-  global:
-    - "@reboot root /home/vagrant/restart_elk_services.sh"
-
 # apolloclark/kibana
 kibana:
-  version: "6.6.2"
+  version: "7.3.0"
   install_only: true
